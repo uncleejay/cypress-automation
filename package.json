@@ -11,7 +11,8 @@
     "triggerAllTests-chrome": "npx cypress run --browser chrome",
     "triggerAllTests-dashboard": "npx cypress run --record --key 0cca5032-798f-468c-bc2a-558e73a72797",
     "triggerAllTests-webdriveruni": "npx cypress run --spec cypress/e2e/webdriver-uni/* --headed",
-    "triggerAllTests-autostore": "npx cypress run --spec cypress/e2e/automation-test-store/*"
+    "triggerAllTests-autostore": "npx cypress run --spec cypress/e2e/automation-test-store/*",
+    "triggerAllTests-autostore-dashboard": "npx cypress run --spec cypress/integration/automation-test-store/* --record --key --parallel"
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^18.0.1",

@@ -24,6 +24,7 @@ module.exports = defineConfig({
     configFile: 'reporter-config.json',
   },
   env: {
+    NO_COLOR: "1",
     webdriveruni_homepage: 'http://www.webdriveruniversity.com'
   }
 });
